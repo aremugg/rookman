@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="overlay" id="overlay">
+    <h3>Searching Now...</h3>
+</div>
+<div class="hero-bg">
+    <section class="top">
+        <header>
+            <a href="#">Faruk shop</a>
+        </header>
+        <h1><span>The exclusive </span>Gaming Experience</h1>
+        <p>Lorem ipsum and friends  rngurtbghiigpnuwqbufo cmxhdihqwdnwjkdbiwnkf j  jfjenfkjbfjenkfj hkwnlfbhvbfwfjk fjwjbjl </p>
+         <div class="form-container">
+            <form action="">
+                <div class="form-left">
+                <label for="city">Enter your city:</label>
+                <input type="text" name="city" id="city">
+                <p>Example:Lagos</p>
+                </div>
+
+                <input type="button" value="Find food in this city now" class="ctr-btn" id="ctr-btn">
+            </form>
+        </div>
+    </section>
+</div>
+<section class="authentic">
+    <div class="right-col">
+        <h2>Authentic Gaming</h2>
+        <p>lorem ipsumm is a wstatemet thata hsa latin origin and you also europenam ilorigun this might end up being a gaming website if you k ow younnknow
+        </p>
+    </div>
+    <img src="images/xbox.jpg" alt="image of a xbox game pad">
+</section>
+<script>
+    let btn = document.getElementById('ctr-btn')
+    let overlay = document.getElementById('overlay')
+
+    btn.addEventListener('click', () => {
+        overlay.style.display = 'grid';
+        overlay.classList.add('animate-overlay')
+
+
+
+    })
+
+</script>
+</body>
+</html>
